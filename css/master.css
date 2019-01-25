@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f8f8f8;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+
+ 
+
+ #top-menu{
+ 	width: 100%;
+ 	height: 60px;
+ 	background-color: #f8f8f8;
+ 	box-shadow: 0px 0px 1px 1px #ccc;
+ }
+
+ #mid-menu{
+ 	width:300px;
+ 	height: 30px;
+ 	border:0px solid #ccc;
+ 	margin:0 auto;
+ }
+ #buttons-bar{
+ 	 display: inline-flex;
+ }
+
+ #select-font{
+ 	border:1px solid #eee;
+ 	background-color: #fff;
+ 	height: 25px;
+ 	border-radius: 3px;
+ 	font-family: 'Quicksand', sans-serif;
+ 	margin-right: 3px;
+
+ }
+
+ #font-size{
+ 	border:1px solid #eee;
+ 	background-color: #fff;
+ 	height: 25px;
+ 	border-radius: 3px;
+ 	font-family: 'Quicksand', sans-serif;
+ 	margin-right: 3px;
+
+ }
+ #mid-line{
+ 	width: 1px;
+ 	height: 27px;
+ 	background-color:#ccc;
+ 	margin-left:2px;
+ 	margin-right:2px;
+ }
+ #button1{
+ 	margin-left: 6px;
+ 	margin-right: 7px;
+ }
+ #button1 button{
+ 	 height:25px;
+ 	 width: 25px;
+ 	 background-color:#f8f8f8;
+ 	 border:0px;
+ 	 border-radius:3px;
+ }
+  #button1 button:hover{
+ 	 background-color:#fff;
+ 	 opacity: 0.5;
+ }
+ #button1 img{
+ 	width: 24px;
+ 	height: 20px;
+
+ }
+
+  #button1-hidden{
+ 	margin-left: 0px;
+ 	margin-right: 0px;
+ }
+ #button1-hidden button{
+ 	 height:0px;
+ 	 width: 0px;
+ 	 background-color:#f8f8f8;
+ 	 border:0px;
+ 	 border-radius:3px;
+ }
+  #button1-hidden button:hover{
+ 	 background-color:#fff;
+ 	 opacity: 0.5;
+ }
+ #button1-hidden img{
+ 	width: 0px;
+ 	height: 0px;
+
+ }
+
+ /*coloricons
+ font-family: 'Charm', cursive;
+*//*sas*/
+
+
+
+
+
+ #paper{
+ 	width: 90%;
+ 	height:500px;
+ 	margin:0 auto;
+ 	margin-top: 20px;
+ 	background-color: #fff;
+ 	box-shadow: 0px 0px 1px 1px #eee;
+
+ }
+ #paper textarea{
+ 	  width:98%;
+ 	  height:470px;
+ 	  margin-top: 10px;
+ 	  margin-left:1%;
+ 	  outline: none;
+ 	  border:0px;
+ 	  font-family: 'Quicksand', sans-serif;
+ 	  resize: none;
+
+
+ }
+
+
+ @media(max-width:500px){
+ 	#mid-menu{
+ 	width:500px;
+ 	height: 30px;
+ 	border:0px solid #ccc;
+ 	margin:0 auto;
+ }
+  #button1-hidden{
+ 	margin-left: 3px;
+ 	margin-right: 6px;
+ }
+ #button1-hidden button{
+ 	 height:25px;
+ 	 width: 25px;
+ 	 background-color:#f8f8f8;
+ 	 border:0px;
+ 	 margin-right: 6px;
+ 	 border-radius:3px;
+ }
+  #button1-hidden button:hover{
+ 	 background-color:#fff;
+ 	 opacity: 0.5;
+ }
+ #button1-hidden img{
+ 	width: 24px;
+ 	height: 20px;
+
+ }
+
+ }
